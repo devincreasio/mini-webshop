@@ -12,7 +12,7 @@ export function Header() {
 
     return (
         <header className="sticky top-0 z-40 border-b bg-white shadow-sm">
-            <div className="container mx-auto py-4">
+            <div className="container py-4">
                 <div className="flex items-center justify-between">
                     <Link href="/">
                         <h1 className="text-3xl font-bold text-gray-900">Mini Webshop</h1>

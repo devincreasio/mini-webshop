@@ -9,7 +9,7 @@ export default function Home() {
     const { products, isLoading, error } = useProducts()
 
     return (
-        <div className="container mx-auto flex flex-col py-10">
+        <div className="container flex flex-col py-10">
             <SearchFilter />
             {error ? (
                 <div className="py-12 text-center">
